@@ -56,7 +56,7 @@ namespace API.Data.Migrations
                     b.Property<string>("address")
                         .IsRequired()
                         .HasColumnType("text");
-
+                                                       
                     b.Property<string>("email")
                         .IsRequired()
                         .HasColumnType("text");
